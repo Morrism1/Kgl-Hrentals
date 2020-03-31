@@ -1,0 +1,28 @@
+$color-primary: #22A7F0;
+$color-primary-darken: #055177;
+$color-secondary: #f5fafc;
+$color-tertiary: #3b3b3b;
+$color-white: #ffffff;
+$color-dark: #151515;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    overflow-x: hidden;
+    color: $color-dark;
+    padding: 10px;
+    background-color: $color-secondary;
+}
+
+.header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-darken, 0.8)), url(./images/hero.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0,100% 80%,0 100%);
+}
