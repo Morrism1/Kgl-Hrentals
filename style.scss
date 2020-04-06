@@ -4,7 +4,9 @@
 
 
 
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -15,7 +17,11 @@ body {
     overflow-x: hidden;
     color: $color-dark;
     padding: 10px;
-    background-color: $color-white;
+    background-color: $color-secondary;
+
+    @media only screen and (max-width: 576px) {
+        font-size: 50%;
+    }
 }
 
 .header {
@@ -23,17 +29,21 @@ body {
     background-image: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-darken, 0.8)), url(./images/hero.jpg);
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
     position: relative;
 
     .logo-box {
         position: absolute;
         top: 20px;
         left: 20px;
+        z-index: 3;
 
         .logo {
             height: 40px;
         }
+    }
+
+    .bg-none {
+        background: linear-gradient(to right bottom, rgba($color-primary, 0.8), rgba($color-primary-darken, 0.8))
     }
 
     .middle-text {
@@ -43,6 +53,14 @@ body {
         transform: translate(-50%, -50%);
         text-align: center;
 
+        // @media only screen and (max-width: 576px) {
+        //     margin: 0;
+
+        //     h1 {
+        //         font-size: 70%;
+        //     }
+        // }
+
         .headings {
             color: #fff;
             text-transform: uppercase;
@@ -50,7 +68,7 @@ body {
             .main-heading {
                 display: block;
                 font-size: 40px;
-                font-weight: 400;
+                font-weight: bold;
                 letter-spacing: 24px;
                 animation: MoveInLeft 2s ease-in;
             }
@@ -58,9 +76,28 @@ body {
             .sub-heading {
                 display: block;
                 font-size: 14px;
-                font-weight: 700;
+                font-weight: 400;
+                text-transform: capitalize;
                 letter-spacing: 7px;
                 animation: MoveInRight 2s ease-in;
+            }
+
+            @media only screen and (max-width: 768px) {
+                .main-heading {
+                    font-size: 25px;
+                }
+
+                .sub-heading {
+                    display: none;
+                }
+            }
+
+            @media only screen and (max-width: 576px) {
+                .main-heading {
+                    font-size: 20px;
+                    margin-top: 6rem;
+                    text-transform: capitalize;
+                }
             }
         }
 
@@ -97,7 +134,7 @@ body {
 
 .features {
     display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(17rem,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
     background-color: $color-secondary;
     grid-column: center-start / center-end;
     gap: 2rem 6rem;
@@ -123,10 +160,36 @@ body {
     }
 }
 
-.heading-4{
+.heading-4 {
     font-family: 'Josefin Sans',
-    sans-serif;
+        sans-serif;
     font-weight: 400;
     font-size: 1.5rem;
 }
 
+.description {
+    display: flex;
+    justify-content: space-between;
+    color: $color-white;
+    padding: 2rem 5rem;
+    text-transform: initial;
+
+    img {
+        height: 10rem;
+        width: 10rem;
+        border-radius: 50%;
+    }
+
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+        padding: 3rem;
+        text-align: center;
+        font-weight: normal;
+
+
+        img {
+            margin-top: 2rem;
+            align-self: center;
+        }
+    }
+}
