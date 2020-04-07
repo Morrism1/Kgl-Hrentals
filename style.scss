@@ -211,3 +211,87 @@ body {
         height: 13rem;
     }
 }
+
+footer {
+    color: $color-white;
+    background-color: $color-dark;
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: $color-white;
+    }
+
+    a:hover {
+        color: $color-primary;
+        text-decoration: none;
+    }
+
+    h6 {
+        font-family: 'Lato', sans-serif;
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    h6:after {
+        position: absolute;
+        content: "";
+        background: $color-secondary;
+        width: 12%;
+        height: 1px;
+        left: 0;
+        bottom: -20px;
+    }
+
+    .btn-footer {
+        color: $color-secondary;
+        border: 1px solid;
+        border-radius: 43px;
+        font-size: 13px;
+        padding: 7px 30px;
+        line-height: 47px;
+    }
+
+    .btn-footer:hover {
+
+        text-decoration: none;
+
+    }
+
+    .form-footer input[type="text"] {
+        border: none;
+        border-radius: 16px 0 0 16px;
+        outline: none;
+        padding-left: 10px;
+
+    }
+
+    ::placeholder {
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    .form-footer input[type="button"] {
+        border: none;
+        background: lighten($color-dark, $amount: 15%);
+        margin-left: -5px;
+        color: $color-white;
+        outline: none;
+        border-radius: 0 16px 16px 0;
+        padding: 2px 12px;
+    }
+
+    .fa {
+        color: $color-secondary;
+        font-size: 22px;
+        padding: 10px 15px;
+        background: $color-tertiary;
+    }
+
+    .fa:hover {
+        color: $color-primary;
+    }
+}
