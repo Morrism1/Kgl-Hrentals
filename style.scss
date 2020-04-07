@@ -171,7 +171,7 @@ body {
     display: flex;
     justify-content: space-between;
     color: $color-white;
-    padding: 2rem 5rem;
+    padding: 0 5rem;
     text-transform: initial;
 
     img {
@@ -191,5 +191,23 @@ body {
             margin-top: 2rem;
             align-self: center;
         }
+    }
+}
+
+.part-1 {
+    background-color: lighten($color-tertiary, $amount: 10%);
+}
+
+.part-2 {
+    background-color: darken($color-secondary, $amount: 15%);
+}
+
+.part-3 {
+    background-color: lighten($color-primary, $amount: 10%);
+    height: 32vh;
+
+    img {
+        border-radius: 0;
+        height: 13rem;
     }
 }
