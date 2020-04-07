@@ -31,7 +31,7 @@
     <title>KGL House Rental</title>
   </head>
   <body>
-    <header class="header-2">
+    <header class="header-2 position-fixed">
       <a href="/index.html" class="logo"
         ><img src="images/Vector (w).png" alt="logo"
       /></a>
@@ -40,186 +40,211 @@
         ><span class="navicon"></span
       ></label>
       <ul class="menu">
-        <li class="d-flex"> <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a></li>
-        <li><a href="#Search"><i class="fa fa-search" aria-hidden="true"></i> Search</a></li>
-        <li><a href="#contact"><i class="fa fa-info-circle" aria-hidden="true"></i> Contact</a></li>
+        <li class="d-flex">
+          <a href="index.html"
+            ><i class="fa fa-home" aria-hidden="true"></i>Home</a
+          >
+        </li>
+        <li>
+          <a href="#Search"
+            ><i class="fa fa-search" aria-hidden="true"></i> Search</a
+          >
+        </li>
+        <li>
+          <a href="#contact"
+            ><i class="fa fa-info-circle" aria-hidden="true"></i> Contact</a
+          >
+        </li>
       </ul>
     </header>
 
-<section class="search-sec my-5">
-    <div class="container">
+    <section class="search-sec my-5">
+      <div class="container">
         <form action="#" method="post" novalidate="novalidate">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="row">
-                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                            <input type="text" class="form-control search-slt" placeholder="Enter Pickup City">
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                            <input type="text" class="form-control search-slt" placeholder="Enter Drop City">
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                            <select class="form-control search-slt" id="exampleFormControlSelect1">
-                                <option>Select Number of Bedrooms</option>
-                                <option>Example one</option>
-                                <option>Example one</option>
-                                <option>Example one</option>
-                                <option>Example one</option>
-                                <option>Example one</option>
-                                <option>Example one</option>
-                            </select>
-                        </div>
-                        <div class="col-lg-3 col-md-3 col-sm-12 p-0">
-                            <button type="button" class="btn btn-danger wrn-btn">Search</button>
-                        </div>
-                    </div>
+          <div class="row">
+            <div class="col-lg-12">
+              <div class="row">
+                <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                  <input
+                    type="text"
+                    class="form-control search-slt"
+                    placeholder="Enter Pickup City"
+                  />
                 </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                  <input
+                    type="text"
+                    class="form-control search-slt"
+                    placeholder="Enter Drop City"
+                  />
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                  <select
+                    class="form-control search-slt"
+                    id="exampleFormControlSelect1"
+                  >
+                    <option>Select Number of Bedrooms</option>
+                    <option>Example one</option>
+                    <option>Example one</option>
+                    <option>Example one</option>
+                    <option>Example one</option>
+                    <option>Example one</option>
+                    <option>Example one</option>
+                  </select>
+                </div>
+                <div class="col-lg-3 col-md-3 col-sm-12 p-0">
+                  <button type="button" class="btn btn-danger wrn-btn">
+                    Search
+                  </button>
+                </div>
+              </div>
             </div>
+          </div>
         </form>
-    </div>
-</section>
-<section class="results container-fluid">
-<div class="result">
-    <img src="images/imageh1 (1).jpg" alt="" class="result-img img-fluid">
-    <h5 class="result-name">Live The Way House</h5>
-    <div class="result-locations">
-        <i class="fa fa-location-arrow" aria-hidden="true"></i>
-        <p>Kabeza</p>
-    </div>
-    <div class="result-rooms">
-        <i class="fa fa-bed" aria-hidden="true"></i>
-        <p>7 Rooms</p>
-    </div>
-    <div class="result-area">
-        <i class="fa fa-expand" aria-hidden="true"></i>
-        <p>310 m<sup>2</sup></p>
-    </div>
-    <div class="result-price">
-        <i class="fa fa-key" aria-hidden="true"></i>
-        <p>$ 450 000</p>
-    </div>
+      </div>
+    </section>
+    <section class="results container-fluid">
+      <div class="result">
+        <img src="images/imageh1 (1).jpg" alt="" class="result-img img-fluid" />
+        <h5 class="result-name">Live The Way House</h5>
+        <div class="result-locations">
+          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+          <p>Kabeza</p>
+        </div>
+        <div class="result-rooms">
+          <i class="fa fa-bed" aria-hidden="true"></i>
+          <p>7 Rooms</p>
+        </div>
+        <div class="result-area">
+          <i class="fa fa-expand" aria-hidden="true"></i>
+          <p>310 m<sup>2</sup></p>
+        </div>
+        <div class="result-price">
+          <i class="fa fa-key" aria-hidden="true"></i>
+          <p>$ 450 000</p>
+        </div>
 
-    <button class="result-button"> Contact Realtor</button>
+        <button class="result-button">Contact Realtor</button>
+      </div>
+      <div class="result">
+        <img
+          src="https://res.cloudinary.com/morrism1/image/upload/q_auto:good/v1585605777/imageh1_e8urrl.jpg"
+          alt=""
+          class="result-img img-fluid"
+        />
+        <h5 class="result-name">Live The Way House</h5>
+        <div class="result-locations">
+          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+          <p>Kabeza</p>
+        </div>
+        <div class="result-rooms">
+          <i class="fa fa-bed" aria-hidden="true"></i>
+          <p>7 Rooms</p>
+        </div>
+        <div class="result-area">
+          <i class="fa fa-expand" aria-hidden="true"></i>
+          <p>310 m<sup>2</sup></p>
+        </div>
+        <div class="result-price">
+          <i class="fa fa-key" aria-hidden="true"></i>
+          <p>$ 450 000</p>
+        </div>
 
-</div>
-<div class="result">
-    <img src="https://res.cloudinary.com/morrism1/image/upload/q_auto:good/v1585605777/imageh1_e8urrl.jpg" alt="" class="result-img img-fluid">
-    <h5 class="result-name">Live The Way House</h5>
-    <div class="result-locations">
-        <i class="fa fa-location-arrow" aria-hidden="true"></i>
-        <p>Kabeza</p>
-    </div>
-    <div class="result-rooms">
-        <i class="fa fa-bed" aria-hidden="true"></i>
-        <p>7 Rooms</p>
-    </div>
-    <div class="result-area">
-        <i class="fa fa-expand" aria-hidden="true"></i>
-        <p>310 m<sup>2</sup></p>
-    </div>
-    <div class="result-price">
-        <i class="fa fa-key" aria-hidden="true"></i>
-        <p>$ 450 000</p>
-    </div>
+        <button class="result-button">Contact Realtor</button>
+      </div>
+      <div class="result">
+        <img src="images/imageh2 (1).jpg" alt="" class="result-img img-fluid" />
+        <h5 class="result-name">Live The Way House</h5>
+        <div class="result-locations">
+          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+          <p>Kabeza</p>
+        </div>
+        <div class="result-rooms">
+          <i class="fa fa-bed" aria-hidden="true"></i>
+          <p>7 Rooms</p>
+        </div>
+        <div class="result-area">
+          <i class="fa fa-expand" aria-hidden="true"></i>
+          <p>310 m<sup>2</sup></p>
+        </div>
+        <div class="result-price">
+          <i class="fa fa-key" aria-hidden="true"></i>
+          <p>$ 450 000</p>
+        </div>
 
-    <button class="result-button"> Contact Realtor</button>
+        <button class="result-button">Contact Realtor</button>
+      </div>
+      <div class="result">
+        <img
+          src="https://res.cloudinary.com/morrism1/image/upload/c_scale,h_3496,w_5234/v1585605751/imageh3_zvaunl.jpg"
+          alt=""
+          class="result-img img-fluid"
+        />
+        <h5 class="result-name">Live The Way House</h5>
+        <div class="result-locations">
+          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+          <p>Kabeza</p>
+        </div>
+        <div class="result-rooms">
+          <i class="fa fa-bed" aria-hidden="true"></i>
+          <p>7 Rooms</p>
+        </div>
+        <div class="result-area">
+          <i class="fa fa-expand" aria-hidden="true"></i>
+          <p>310 m<sup>2</sup></p>
+        </div>
+        <div class="result-price">
+          <i class="fa fa-key" aria-hidden="true"></i>
+          <p>$ 450 000</p>
+        </div>
 
-</div>
-<div class="result">
-    <img src="images/imageh2 (1).jpg" alt="" class="result-img img-fluid">
-    <h5 class="result-name">Live The Way House</h5>
-    <div class="result-locations">
-        <i class="fa fa-location-arrow" aria-hidden="true"></i>
-        <p>Kabeza</p>
-    </div>
-    <div class="result-rooms">
-        <i class="fa fa-bed" aria-hidden="true"></i>
-        <p>7 Rooms</p>
-    </div>
-    <div class="result-area">
-        <i class="fa fa-expand" aria-hidden="true"></i>
-        <p>310 m<sup>2</sup></p>
-    </div>
-    <div class="result-price">
-        <i class="fa fa-key" aria-hidden="true"></i>
-        <p>$ 450 000</p>
-    </div>
+        <button class="result-button">Contact Realtor</button>
+      </div>
+      <div class="result">
+        <img src="images/imageh4.jpg" alt="" class="result-img img-fluid" />
+        <h5 class="result-name">Live The Way House</h5>
+        <div class="result-locations">
+          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+          <p>Kabeza</p>
+        </div>
+        <div class="result-rooms">
+          <i class="fa fa-bed" aria-hidden="true"></i>
+          <p>7 Rooms</p>
+        </div>
+        <div class="result-area">
+          <i class="fa fa-expand" aria-hidden="true"></i>
+          <p>310 m<sup>2</sup></p>
+        </div>
+        <div class="result-price">
+          <i class="fa fa-key" aria-hidden="true"></i>
+          <p>$ 450 000</p>
+        </div>
 
-    <button class="result-button"> Contact Realtor</button>
+        <button class="result-button">Contact Realtor</button>
+      </div>
+      <div class="result">
+        <img src="images/imageh5 (1).jpg" alt="" class="result-img img-fluid" />
+        <h5 class="result-name">Live The Way House</h5>
+        <div class="result-locations">
+          <i class="fa fa-location-arrow" aria-hidden="true"></i>
+          <p>Kabeza</p>
+        </div>
+        <div class="result-rooms">
+          <i class="fa fa-bed" aria-hidden="true"></i>
+          <p>7 Rooms</p>
+        </div>
+        <div class="result-area">
+          <i class="fa fa-expand" aria-hidden="true"></i>
+          <p>310 m<sup>2</sup></p>
+        </div>
+        <div class="result-price">
+          <i class="fa fa-key" aria-hidden="true"></i>
+          <p>$ 450 000</p>
+        </div>
 
-</div>
-<div class="result">
-    <img src="https://res.cloudinary.com/morrism1/image/upload/c_scale,h_3496,w_5234/v1585605751/imageh3_zvaunl.jpg" alt="" class="result-img img-fluid">
-    <h5 class="result-name">Live The Way House</h5>
-    <div class="result-locations">
-        <i class="fa fa-location-arrow" aria-hidden="true"></i>
-        <p>Kabeza</p>
-    </div>
-    <div class="result-rooms">
-        <i class="fa fa-bed" aria-hidden="true"></i>
-        <p>7 Rooms</p>
-    </div>
-    <div class="result-area">
-        <i class="fa fa-expand" aria-hidden="true"></i>
-        <p>310 m<sup>2</sup></p>
-    </div>
-    <div class="result-price">
-        <i class="fa fa-key" aria-hidden="true"></i>
-        <p>$ 450 000</p>
-    </div>
-
-    <button class="result-button"> Contact Realtor</button>
-
-</div>
-<div class="result">
-    <img src="images/imageh4.jpg" alt="" class="result-img img-fluid">
-    <h5 class="result-name">Live The Way House</h5>
-    <div class="result-locations">
-        <i class="fa fa-location-arrow" aria-hidden="true"></i>
-        <p>Kabeza</p>
-    </div>
-    <div class="result-rooms">
-        <i class="fa fa-bed" aria-hidden="true"></i>
-        <p>7 Rooms</p>
-    </div>
-    <div class="result-area">
-        <i class="fa fa-expand" aria-hidden="true"></i>
-        <p>310 m<sup>2</sup></p>
-    </div>
-    <div class="result-price">
-        <i class="fa fa-key" aria-hidden="true"></i>
-        <p>$ 450 000</p>
-    </div>
-
-    <button class="result-button"> Contact Realtor</button>
-
-</div>
-<div class="result">
-    <img src="images/imageh5 (1).jpg" alt="" class="result-img img-fluid">
-    <h5 class="result-name">Live The Way House</h5>
-    <div class="result-locations">
-        <i class="fa fa-location-arrow" aria-hidden="true"></i>
-        <p>Kabeza</p>
-    </div>
-    <div class="result-rooms">
-        <i class="fa fa-bed" aria-hidden="true"></i>
-        <p>7 Rooms</p>
-    </div>
-    <div class="result-area">
-        <i class="fa fa-expand" aria-hidden="true"></i>
-        <p>310 m<sup>2</sup></p>
-    </div>
-    <div class="result-price">
-        <i class="fa fa-key" aria-hidden="true"></i>
-        <p>$ 450 000</p>
-    </div>
-
-    <button class="result-button"> Contact Realtor</button>
-
-</div>
-</section>
-
-
+        <button class="result-button">Contact Realtor</button>
+      </div>
+    </section>
 
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
