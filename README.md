@@ -8,7 +8,7 @@ KGL HRentals is a web app that bridges the gap between Rentors and Tenants. We d
 
 ## Mobile Version of Main Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586551259/Phone_zuon1x.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1586551259/Phone_zuon1x.png)
 
 ## Desktop Version of Search Results Page
 
@@ -16,11 +16,11 @@ KGL HRentals is a web app that bridges the gap between Rentors and Tenants. We d
 
 ## Tablet Version of Search Results Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586551342/Search-Tablet_agfgot.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1586551342/Search-Tablet_agfgot.png)
 
 ## Mobile Version of Search Results Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586550683/Search-phone_ndhkrn.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1586550683/Search-phone_ndhkrn.png)
 
 ## Desktop Version of Contact Page
 
@@ -28,11 +28,11 @@ KGL HRentals is a web app that bridges the gap between Rentors and Tenants. We d
 
 ## Tablet Version of Contact Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586550703/Contact-Tab_g1wq2z.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1586550703/Contact-Tab_g1wq2z.png)
 
 ## Mobile Version of Contact Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586550454/Contact-phone_ocboet.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1586550454/Contact-phone_ocboet.png)
 
 ## Built With
 
