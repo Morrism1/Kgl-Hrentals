@@ -2,27 +2,27 @@
 
 KGL HRentals is a web app that bridges the gap between Rentors and Tenants. We developed this as a result of a felt need by House owners/ Agents and Tenants for adequate accurate and necessary information on their preferred neighbourhoods and inability to apply online to rent.
 
-# Desktop Version of Main Page
+## Desktop Version of Main Page
 
 ![screenshot](assets/images/home.png)
 
-# Mobile Version of Main Page
+## Mobile Version of Main Page
 
 ![screenshot](assets/images/mobile-home.png)
 
-# Desktop Version of Search Results Page
+## Desktop Version of Search Results Page
 
 ![screenshot](assets/images/search-results.png)
 
-# Mobile Version of Search Results Page
+## Mobile Version of Search Results Page
 
 ![screenshot](assets/images/mobile-search.png)
 
-# Desktop Version of Detail School Page
+## Desktop Version of Detail School Page
 
 ![screenshot](assets/images/detail.png)
 
-# Mobile Version of Detail School Page
+## Mobile Version of Detail School Page
 
 ![screenshot](assets/images/mobile-detail.png)
 
@@ -31,14 +31,21 @@ KGL HRentals is a web app that bridges the gap between Rentors and Tenants. We d
 - HTML 5
 - CSS 3
 - BOOTSTRAP 4
+- SASS
+
+## Tools Used
+
+- Cloudinary for Images compression and Hosting
+- Animate.css for Animations
+- Hackerthemes for bootstrap snippet cheatsheet
 
 ## Live Demo
 
-[Live Demo Link](https://brittanyblake.github.io/Capstone-project-html/)
+[Live Demo Link](https://morrism1.github.io/Kgl-Hrentals/)
 
 ## Video
 
-Feel free to check out this video explaining my project <a href="#"> here </a>
+Feel free to check out this video explaining [my project](https/example.com) here
 
 ## Authors
 
@@ -48,10 +55,10 @@ Feel free to check out this video explaining my project <a href="#"> here </a>
 - Twitter: [@MorrisMontana0](https://twitter.com/MorrisMontana0)
 - Linkedin: [Maurice Murangwa](https://www.linkedin.com/in/murangwa-maurice-769549140/)
 
-# Credit
+## Credit
 
-- Design Created by <a href="https://www.behance.net/mathewnjuguna">Mather Njuguna</a> and <a href="https://www.behance.net/aweSam"> Sam Achola</a> on behance.
-- See the Design Template <a href="https://www.behance.net/gallery/25563385/PatashuleKE">on behance</a>
+- Design Created by [Mather Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam) on behance.
+- See the Design [Template](https://www.behance.net/gallery/25563385/PatashuleKE) on behance
 
 ## 🤝 Contributing
 
