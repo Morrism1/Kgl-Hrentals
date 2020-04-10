@@ -4,27 +4,35 @@ KGL HRentals is a web app that bridges the gap between Rentors and Tenants. We d
 
 ## Desktop Version of Main Page
 
-![screenshot](assets/images/home.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586551028/Desktop_hm9ax8.png)
 
 ## Mobile Version of Main Page
 
-![screenshot](assets/images/mobile-home.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586551259/Phone_zuon1x.png)
 
 ## Desktop Version of Search Results Page
 
-![screenshot](assets/images/search-results.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586551111/Search_ens8pl.png)
+
+## Tablet Version of Search Results Page
+
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586551342/Search-Tablet_agfgot.png)
 
 ## Mobile Version of Search Results Page
 
-![screenshot](assets/images/mobile-search.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586550683/Search-phone_ndhkrn.png)
 
-## Desktop Version of Detail School Page
+## Desktop Version of Contact Page
 
-![screenshot](assets/images/detail.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586550527/Contact_b9nk9e.png)
 
-## Mobile Version of Detail School Page
+## Tablet Version of Contact Page
 
-![screenshot](assets/images/mobile-detail.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586550703/Contact-Tab_g1wq2z.png)
+
+## Mobile Version of Contact Page
+
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586550454/Contact-phone_ocboet.png)
 
 ## Built With
 
@@ -38,6 +46,7 @@ KGL HRentals is a web app that bridges the gap between Rentors and Tenants. We d
 - Cloudinary for Images compression and Hosting
 - Animate.css for Animations
 - Hackerthemes for bootstrap snippet cheatsheet
+- Figma for Logo Design
 
 ## Live Demo
 
@@ -59,6 +68,8 @@ Feel free to check out this video explaining [my project](https/example.com) her
 
 - Design Created by [Mather Njuguna](https://www.behance.net/mathewnjuguna) and [Sam Achola](https://www.behance.net/aweSam) on behance.
 - See the Design [Template](https://www.behance.net/gallery/25563385/PatashuleKE) on behance
+
+- Jonas Schmedtmann from Udemy for his Advanced Css and Sass course! 👏
 
 ## 🤝 Contributing
 
