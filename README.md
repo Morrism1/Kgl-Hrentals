@@ -42,11 +42,11 @@ Feel free to check out this video explaining my project <a href="#"> here </a>
 
 ## Authors
 
-👤 **Brittany Blake**
+👤 **Maurice Murangwa**
 
-- Github: [@BrittanyBlake](https://github.com/BrittanyBlake)
-- Twitter: [@bbcodes\_](https://twitter.com/bbcodes_)
-- Linkedin: [Brittany Blake](https://www.linkedin.com/in/brittany-blake-843951109/)
+- Github: [@Morrism1](https://github.com/Morrism1)
+- Twitter: [@MorrisMontana0](https://twitter.com/MorrisMontana0)
+- Linkedin: [Maurice Murangwa](https://www.linkedin.com/in/murangwa-maurice-769549140/)
 
 # Credit
 
