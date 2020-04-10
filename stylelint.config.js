@@ -2,6 +2,11 @@
 
 module.exports = {
   "extends": "stylelint-config-recommended",
+  "ignoreFiles": [
+    "*.css",
+    "*.html",
+    "*/*.svg"
+  ],
   "rules": {
     "at-rule-empty-line-before": [ "always", {
       except: [
