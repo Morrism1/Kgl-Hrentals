@@ -24,21 +24,31 @@ body {
 }
 
 .header {
-  height: 95vh;
+  height: 85vh;
   background-image:
     linear-gradient(
       to right bottom,
-      rgba($color-primary, 0.8),
-      rgba($color-primary-darken, 0.8)
+      rgba($color-dark, 0.8),
+      rgba($color-primary-darken, 0.4)
     ),
     url(https://res.cloudinary.com/morrism1/image/upload/q_auto:good/v1586296158/hero_lcu8mq.jpg);
   background-size: cover;
   background-position: top;
   position: relative;
 
+  .wrapper{
+    top: 0;
+    height: 10%;
+    width: 100%;
+    background-color: $color-primary;
+    margin-bottom: 20px;
+    position: sticky;
+   z-index: 1;
+  }
+
   .logo-box {
     position: absolute;
-    top: 20px;
+    top: 10px;
     left: 20px;
     z-index: 3;
 
@@ -50,10 +60,11 @@ body {
   .bg-none {
     background:
       linear-gradient(
-        to right bottom,
+        120deg,
         rgba($color-primary, 0.8),
         rgba($color-primary-darken, 0.8)
       );
+      z-index: 2;
   }
 
   .middle-text {
@@ -64,43 +75,15 @@ body {
     text-align: center;
 
     .headings {
+      position: relative;
+      top: 3rem;
       color: $color-white;
       text-transform: uppercase;
-
-      .main-heading {
-        display: block;
-        font-size: 40px;
-        font-weight: bold;
-        letter-spacing: 24px;
-        animation: MoveInLeft 2s ease-in;
-      }
-
-      .sub-heading {
-        display: block;
-        font-size: 14px;
-        font-weight: 400;
-        text-transform: capitalize;
-        letter-spacing: 7px;
-        animation: MoveInRight 2s ease-in;
-      }
-
-      @media only screen and (max-width: 768px) {
-        .main-heading {
-          font-size: 25px;
-        }
-
-        .sub-heading {
-          display: none;
-        }
-      }
-
-      @media only screen and (max-width: 576px) {
-        .main-heading {
-          font-size: 20px;
-          margin-top: 6rem;
-          text-transform: capitalize;
-        }
-      }
+      font-weight: 700;
+      font-size: 30px;
+      line-height: 40px;
+      margin-top: 20px;
+      animation: MoveInLeft 2s ease-in;
     }
 
     .btn {
@@ -109,8 +92,8 @@ body {
         display: inline-block;
         text-decoration: none;
         text-transform: uppercase;
-        padding: 10px 35px;
-        border-radius: 100px;
+        padding: 10px 25px;
+        border-radius: 2px;
         transition: all 0.2s;
       }
 
@@ -125,7 +108,7 @@ body {
       }
 
       &-white {
-        background-color: $color-white;
+        background-color: darken($color-secondary, 10%);
       }
     }
   }
@@ -146,7 +129,7 @@ body {
   text-align: center;
 
   &-icon {
-    fill: $color-primary;
+    fill: $color-dark;
     width: 4.5rem;
     height: 4.5rem;
     margin: 0.5rem auto;
@@ -193,7 +176,7 @@ body {
 }
 
 .part-1 {
-  background-color: lighten($color-tertiary, $amount: 10%);
+  background-color: lighten($color-primary, $amount: 10%);
 }
 
 .part-2 {
@@ -201,7 +184,7 @@ body {
 }
 
 .part-3 {
-  background-color: lighten($color-primary, $amount: 10%);
+  background-color: darken(#519CD8, $amount: 1%);
   height: 32vh;
 
   @media only screen and (max-width: 768px) {
@@ -238,6 +221,12 @@ body {
 
   .div-r {
     padding: 40px;
+    @media only screen and (max-width: 576px) {
+      font-family: "Lato", sans-serif;
+      font-size: 150%;
+      line-height: 20px;
+      font-weight: normal;
+    }
   }
 
   .carousel-title {
