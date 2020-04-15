@@ -226,13 +226,13 @@ body {
 
 @media (min-width: 992px) {
   .search-sec {
-    background: rgba($color-primary, 0.81);
+    background: rgba($color-secondary, 0.81);
   }
 }
 
 @media (max-width: 992px) {
   .search-sec {
-    background: $color-primary;
+    background: darken($color-secondary,10%);
   }
 }
 
