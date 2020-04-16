@@ -4,35 +4,35 @@ KGL HRentals is a web app that bridges the gap between Rentors and Tenants. We d
 
 ## Desktop Version of Main Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586551028/Desktop_hm9ax8.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1587038004/Desktop-home_kffnph.png)
 
 ## Mobile Version of Main Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1586551259/Phone_zuon1x.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1587037962/Phone-homepage_c7x868.png)
 
 ## Desktop Version of Search Results Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586551111/Search_ens8pl.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1587037974/Desktop-result_skftol.png)
 
 ## Tablet Version of Search Results Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1586551342/Search-Tablet_agfgot.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1587037969/Tab-result_jj4l5o.png)
 
 ## Mobile Version of Search Results Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1586550683/Search-phone_ndhkrn.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1587037771/Phone-result_fk8tsc.png)
 
-## Desktop Version of Contact Page
+## Desktop Version of Details Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1586550527/Contact_b9nk9e.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1587037683/details-desktop_fs2r61.png)
 
-## Tablet Version of Contact Page
+## Tablet Version of Details Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1586550703/Contact-Tab_g1wq2z.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1587037780/Tab-details_gtsq6k.png)
 
-## Mobile Version of Contact Page
+## Mobile Version of Details Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1586550454/Contact-phone_ocboet.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_348/q_auto:eco/v1587037664/Phone-details_awp5jr.png)
 
 ## Built With
 
