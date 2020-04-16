@@ -8,11 +8,11 @@ main {
   margin-bottom: 2rem;
 }
 
-.school-logo {
+.house-logo {
   width: 15%;
 }
 
-.features-school {
+.features-house {
   display: grid;
   grid-template-columns: 2;
   grid-template-rows: repeat(3, 1fr);
@@ -31,7 +31,7 @@ main {
    grid-column: 2;
  }
 
- .school-contact {
+ .house-contact {
    display: flex;
    justify-content: space-around;
    padding-top: 20px;
