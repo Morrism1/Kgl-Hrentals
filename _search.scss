@@ -230,14 +230,14 @@ body {
 @media (min-width: 992px) {
   .search-sec {
     margin-top: 6rem;
-    background: rgba(darken($color-secondary,15%), 0.81);
+    background: rgba(darken($color-secondary, 15%), 0.81);
   }
 }
 
 @media (max-width: 992px) {
   .search-sec {
     margin-top: 3rem;
-    background: darken($color-secondary,10%);
+    background: darken($color-secondary, 10%);
   }
 }
 

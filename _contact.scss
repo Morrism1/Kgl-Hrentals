@@ -17,39 +17,37 @@ main {
   grid-template-columns: 2;
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 20px;
-
- 
 }
 
- .form-1 {
-   grid-row: 1;
-   grid-column: 1;
- }
+.form-1 {
+  grid-row: 1;
+  grid-column: 1;
+}
 
- .form-2 {
-   grid-row: 1;
-   grid-column: 2;
- }
+.form-2 {
+  grid-row: 1;
+  grid-column: 2;
+}
 
- .house-contact {
-   display: flex;
-   justify-content: space-around;
-   padding-top: 20px;
- }
+.house-contact {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 20px;
+}
 
- .title-img {
-   height: 10rem;
-   width: 10rem;
-   border-radius: 12px;
-   margin: 2rem;
- }
+.title-img {
+  height: 10rem;
+  width: 10rem;
+  border-radius: 12px;
+  margin: 2rem;
+}
 
 .svg-inline--fa {
   display: inline-block;
   font-size: 4rem;
   height: 1.4rem;
   overflow: visible;
-  vertical-align: -.125em;
+  vertical-align: -0.125em;
 }
 
 .search-area {
