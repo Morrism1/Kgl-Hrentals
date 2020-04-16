@@ -4,7 +4,7 @@ KGL HRentals is a web app that bridges the gap between Rentors and Tenants. We d
 
 ## Desktop Version of Main Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1587038004/Desktop-home_kffnph.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_591/v1587038004/Desktop-home_kffnph.png)
 
 ## Mobile Version of Main Page
 
@@ -12,7 +12,7 @@ KGL HRentals is a web app that bridges the gap between Rentors and Tenants. We d
 
 ## Desktop Version of Search Results Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1587037974/Desktop-result_skftol.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_591/v1587037974/Desktop-result_skftol.png)
 
 ## Tablet Version of Search Results Page
 
@@ -24,7 +24,7 @@ KGL HRentals is a web app that bridges the gap between Rentors and Tenants. We d
 
 ## Desktop Version of Details Page
 
-![screenshot](https://res.cloudinary.com/morrism1/image/upload/q_auto:eco/v1587037683/details-desktop_fs2r61.png)
+![screenshot](https://res.cloudinary.com/morrism1/image/upload/c_scale,q_auto:eco,w_591/v1587037683/details-desktop_fs2r61.png)
 
 ## Tablet Version of Details Page
 
