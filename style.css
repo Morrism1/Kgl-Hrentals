@@ -236,6 +236,7 @@ body {
   font-family: "Lato", sans-serif;
   font-size: 1.5rem;
   text-transform: uppercase;
+  text-align: center;
   padding: 0.8rem 3rem;
   cursor: pointer;
   -webkit-transition: all 0.2s;
@@ -353,11 +354,11 @@ main {
   margin-bottom: 2rem;
 }
 
-.school-logo {
+.house-logo {
   width: 15%;
 }
 
-.features-school {
+.features-house {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 2;
@@ -381,7 +382,7 @@ main {
   grid-column: 2;
 }
 
-.school-contact {
+.house-contact {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
