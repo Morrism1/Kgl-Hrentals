@@ -161,7 +161,7 @@ body {
   display: grid;
   margin: 0.5rem 0;
   grid-column: center-start / center-end;
-  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
   gap: 2rem 2rem;
 
   .result {
@@ -228,12 +228,14 @@ body {
 
 @media (min-width: 992px) {
   .search-sec {
-    background: rgba($color-secondary, 0.81);
+    margin-top: 6rem;
+    background: rgba(darken($color-secondary,15%), 0.81);
   }
 }
 
 @media (max-width: 992px) {
   .search-sec {
+    margin-top: 3rem;
     background: darken($color-secondary,10%);
   }
 }
