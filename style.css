@@ -3,7 +3,7 @@ body {
 }
 
 .header-2 {
-  background-color: #D45749;
+  background-color: #d45749;
   -webkit-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
           box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
   width: 98.5%;
@@ -224,12 +224,12 @@ body {
 }
 
 .results .result-locations .fa, .results .result-rooms .fa, .results .result-area .fa, .results .result-price .fa {
-  color: #D45749;
+  color: #d45749;
 }
 
 .results .result-button {
   grid-column: 1/-1;
-  background-color: #D45749;
+  background-color: #d45749;
   color: #fff;
   border: none;
   border-radius: 0;
@@ -403,7 +403,7 @@ main {
   font-size: 4rem;
   height: 1.4rem;
   overflow: visible;
-  vertical-align: -.125em;
+  vertical-align: -0.125em;
 }
 
 .search-area {
@@ -431,7 +431,7 @@ main {
 
 .mail-btn,
 .pull-right {
-  background-color: #D45749;
+  background-color: #d45749;
   color: #fff;
 }
 
@@ -465,7 +465,7 @@ body {
   top: 0;
   height: 4rem;
   width: 100%;
-  background-color: #D45749;
+  background-color: #d45749;
   margin-bottom: 20px;
   position: -webkit-sticky;
   position: sticky;
@@ -664,7 +664,7 @@ body {
 }
 
 .carousel .carousel-img {
-  background-color: #D45749;
+  background-color: #d45749;
   color: #f5fafc;
   background-position: center;
   background-repeat: no-repeat;
@@ -739,7 +739,7 @@ footer a {
 }
 
 footer a:hover {
-  color: #D45749;
+  color: #d45749;
   text-decoration: none;
 }
 
@@ -841,7 +841,7 @@ footer .fa {
 }
 
 footer .fa:hover {
-  color: #D45749;
+  color: #d45749;
 }
 
 @media screen and (max-width: 768px) {
