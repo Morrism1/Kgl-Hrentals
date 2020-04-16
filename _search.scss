@@ -20,6 +20,7 @@ body {
 }
 
 .header-2 li a {
+  font-size: 0.9rem;
   display: block;
   padding: 20px 20px;
   text-decoration: none;
@@ -111,6 +112,7 @@ body {
 @media (min-width: 48em) {
   .header-2 li {
     float: left;
+    font-size: 150%;
   }
 
   .header-2 li a {
