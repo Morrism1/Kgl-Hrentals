@@ -32,14 +32,14 @@ body {
   background-position: top;
   position: relative;
 
-  .wrapper{
+  .wrapper {
     top: 0;
     height: 4rem;
     width: 100%;
     background-color: $color-primary;
     margin-bottom: 20px;
     position: sticky;
-   z-index: 1;
+    z-index: 1;
   }
 
   .logo-box {
@@ -60,7 +60,7 @@ body {
         rgba($color-primary, 0.8),
         rgba($color-primary-darken, 0.8)
       );
-      z-index: 2;
+    z-index: 2;
   }
 
   .middle-text {
@@ -180,7 +180,7 @@ body {
 }
 
 .part-3 {
-  background-color: darken(#519CD8, $amount: 1%);
+  background-color: darken(#519cd8, $amount: 1%);
   height: 32vh;
 
   @media only screen and (max-width: 768px) {
@@ -189,11 +189,11 @@ body {
   }
 
   @media only screen and (max-width: 576px) {
-    h1{
-    font-size: 1rem;
-    line-height: 25px;
-    font-weight: normal;
-      }
+    h1 {
+      font-size: 1rem;
+      line-height: 25px;
+      font-weight: normal;
+    }
   }
 
   img {
@@ -225,6 +225,7 @@ body {
 
   .div-r {
     padding: 40px;
+
     @media only screen and (max-width: 576px) {
       font-family: "Lato", sans-serif;
       font-size: 150%;
@@ -264,10 +265,9 @@ footer {
   background-color: $color-dark;
 
   .above-cop {
-    
-      display: grid;
-      grid-template-columns: repeat(auto-fit,minmax(25rem,1fr));
-      width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    width: 100%;
   }
 
   li {
@@ -300,14 +300,14 @@ footer {
     bottom: -20px;
   }
 
-  svg{
-
+  svg {
     height: 2.2rem;
     width: 2.2rem;
-    use{
-    fill: white;
-    margin: 0.5rem auto;
-      }
+
+    use {
+      fill: white;
+      margin: 0.5rem auto;
+    }
   }
 
   .btn-footer {
@@ -352,7 +352,7 @@ footer {
     padding: 2px 12px;
   }
 
-  .footer-top{
+  .footer-top {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
   }
@@ -368,27 +368,25 @@ footer {
     color: $color-primary;
   }
 
-  @media screen and (max-width: 768px){
+  @media screen and (max-width: 768px) {
     text-align: center;
     border: none;
 
-    ul{
+    ul {
       display: flex;
       flex-direction: row;
-     justify-items: center;
-     justify-content: space-between;
-     align-items: center;
-
-      
+      justify-items: center;
+      justify-content: space-between;
+      align-items: center;
     }
 
     .social {
       flex: 1;
     }
 
-   .form-footer input[type="text"]{
-     width: 75%;
-   }
+    .form-footer input[type="text"] {
+      width: 75%;
+    }
 
     h6::after {
       position: absolute;
@@ -399,7 +397,5 @@ footer {
       left: 45%;
       bottom: -20px;
     }
-      
-    
   }
 }
