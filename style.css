@@ -664,15 +664,14 @@ body {
 }
 
 .carousel .carousel-img {
-  background-color: #d45749;
   color: #f5fafc;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-  height: 100%;
+  height: auto;
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   -webkit-clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
           clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
   opacity: 0.8;
@@ -696,6 +695,9 @@ body {
   font-weight: bold;
   margin-left: 20px;
   margin-top: 20px;
+  z-index: 2;
+  top: 0;
+  position: absolute;
 }
 
 .carousel .carousel-pagination {
