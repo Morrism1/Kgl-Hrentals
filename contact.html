@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+  <link rel="stylesheet" href="style.css" />
+  <title>KGL House Rental</title>
+</head>
+
+<body>
+  <header class="header-2 position-fixed">
+    <a href="index.html" class="logo"><img src="images/Vector.png" alt="logo" /></a>
+    <input class="menu-btn" type="checkbox" id="menu-btn" />
+    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+    <ul class="menu">
+      <li class="d-flex">
+        <a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+      </li>
+      <li>
+        <a href="search.html"><i class="fa fa-search" aria-hidden="true"></i> Search</a>
+      </li>
+      <li>
+        <a href="contact.html"><i class="fa fa-info-circle" aria-hidden="true"></i> Contact</a>
+      </li>
+    </ul>
+  </header>
+  <main>
+    <div id="featured-house" class="featured-house">
+    
+      <div class="text-center text-danger featured-house border shadow my-5 pb-4 mx-3 px-3">
+       <img src="https://res.cloudinary.com/morrism1/image/upload/q_auto:good/v1586296158/imageh6_gfbj79.jpg"
+        alt="description" class="img-fluid title-img" />
+        <div class="features-house house-detail">
+          <div class="house-detail form-1">
+            <input type="text"
+              class="mb-3 form-control result-form text-center text-uppercase text-dark font-weight-bold"
+              placeholder="Property: private">
+          </div>
+          <div class="house-detail form-2">
+            <input type="text"
+              class="mb-3 form-control result-form text-center text-uppercase text-dark font-weight-bold"
+              placeholder="Location: Kagarama">
+          </div>
+          <div class="house-detail form-3">
+            <input type="text"
+              class="mb-3 form-control result-form text-center text-uppercase text-dark font-weight-bold"
+              placeholder="Price: Negotiable">
+          </div>
+          <div class="house-detail form-4">
+            <input type="text"
+              class="mb-3 form-control result-form text-center text-uppercase text-dark font-weight-bold"
+              placeholder="Bedrooms: 6 Rooms + 3 Bathrooms">
+          </div>
+          <div class="house-detail form-5">
+            <input type="text"
+              class="mb-3 form-control result-form text-center text-uppercase text-dark font-weight-bold"
+              placeholder="Realtor: Matheu Ben">
+          </div>
+          <div class="house-detail form-6">
+            <input type="text" class="form-control result-form text-center text-uppercase text-dark font-weight-bold"
+              placeholder="email: info@kglrental.com">
+          </div>
+        </div>
+
+        <a href="#apply" class="btn btn-primary my-3  text-white" role="button">
+          <svg class="svg-inline--fa fa-envelope fa-w-16" aria-hidden="true" focusable="false" data-prefix="fas"
+            data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+            <path fill="currentColor"
+              d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z">
+            </path>
+          </svg> Apply</a>
+
+        <div class="house-detail house-contact ">
+          <div class="house-detail text-dark text-center">
+            <p class="small pt-2">
+              <svg class="svg-inline--fa fa-phone fa-w-16 text-primary" aria-hidden="true" focusable="false"
+                data-prefix="fas" data-icon="phone" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                data-fa-i2svg="">
+                <path fill="currentColor"
+                  d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z">
+                </path>
+              </svg> : +1-402-555-2737
+            </p>
+          </div>
+          <div class="house-detail ">
+            <a href="#" class="text-decoration-none text-dark text-center">
+              <p class="small pt-2">
+                <svg class="svg-inline--fa fa-tv fa-w-20 text-primary" aria-hidden="true" focusable="false"
+                  data-prefix="fas" data-icon="tv" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                  data-fa-i2svg="">
+                  <path fill="currentColor"
+                    d="M592 0H48A48 48 0 0 0 0 48v320a48 48 0 0 0 48 48h240v32H112a16 16 0 0 0-16 16v32a16 16 0 0 0 16 16h416a16 16 0 0 0 16-16v-32a16 16 0 0 0-16-16H352v-32h240a48 48 0 0 0 48-48V48a48 48 0 0 0-48-48zm-16 352H64V64h512z">
+                  </path>
+                </svg>: www.kglrental.com
+              </p>
+            </a>
+          </div>
+          <div class="house-detail text-dark text-center">
+            <p class="small pt-2">
+              <svg class="svg-inline--fa fa-users fa-w-20 text-primary" aria-hidden="true" focusable="false"
+                data-prefix="fas" data-icon="users" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"
+                data-fa-i2svg="">
+                <path fill="currentColor"
+                  d="M96 224c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm448 0c35.3 0 64-28.7 64-64s-28.7-64-64-64-64 28.7-64 64 28.7 64 64 64zm32 32h-64c-17.6 0-33.5 7.1-45.1 18.6 40.3 22.1 68.9 62 75.1 109.4h66c17.7 0 32-14.3 32-32v-32c0-35.3-28.7-64-64-64zm-256 0c61.9 0 112-50.1 112-112S381.9 32 320 32 208 82.1 208 144s50.1 112 112 112zm76.8 32h-8.3c-20.8 10-43.9 16-68.5 16s-47.6-6-68.5-16h-8.3C179.6 288 128 339.6 128 403.2V432c0 26.5 21.5 48 48 48h288c26.5 0 48-21.5 48-48v-28.8c0-63.6-51.6-115.2-115.2-115.2zm-223.7-13.4C161.5 263.1 145.6 256 128 256H64c-35.3 0-64 28.7-64 64v32c0 17.7 14.3 32 32 32h65.9c6.3-47.4 34.9-87.3 75.2-109.4z">
+                </path>
+              </svg>  House Number:
+              <span class="text-primary">870 </span>
+            </p>
+          </div>
+          <div class="house-detail text-dark text-center">
+            <p class="small pt-2">
+              <svg class="svg-inline--fa fa-money-bill-alt fa-w-20 text-primary" aria-hidden="true" focusable="false"
+                data-prefix="far" data-icon="money-bill-alt" role="img" xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 640 512" data-fa-i2svg="">
+                <path fill="currentColor"
+                  d="M320 144c-53.02 0-96 50.14-96 112 0 61.85 42.98 112 96 112 53 0 96-50.13 96-112 0-61.86-42.98-112-96-112zm40 168c0 4.42-3.58 8-8 8h-64c-4.42 0-8-3.58-8-8v-16c0-4.42 3.58-8 8-8h16v-55.44l-.47.31a7.992 7.992 0 0 1-11.09-2.22l-8.88-13.31a7.992 7.992 0 0 1 2.22-11.09l15.33-10.22a23.99 23.99 0 0 1 13.31-4.03H328c4.42 0 8 3.58 8 8v88h16c4.42 0 8 3.58 8 8v16zM608 64H32C14.33 64 0 78.33 0 96v320c0 17.67 14.33 32 32 32h576c17.67 0 32-14.33 32-32V96c0-17.67-14.33-32-32-32zm-16 272c-35.35 0-64 28.65-64 64H112c0-35.35-28.65-64-64-64V176c35.35 0 64-28.65 64-64h416c0 35.35 28.65 64 64 64v160z">
+                </path>
+              </svg> Morgage
+              support: <span class="text-primary">yes </span>
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-left text-dark my-5 pb-4 mx-3 px-2">
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Numquam quae
+          molestiae ducimus. Eligendi veritatis atque temporibus obcaecati quae
+          magni fuga vel esse sequi dicta, quod quos veniam amet totam nam
+          possimus tenetur officiis, optio accusamus tempore sit adipisci
+          repellat aliquam. Sint omnis eaque mollitia veritatis, quidem aut
+          blanditiis at enim quae culpa voluptas deserunt soluta temporibus
+          corrupti quia. In cumque similique minus, ullam iure qui. Voluptates
+          voluptatum voluptatem mollitia animi, dolorum porro odit ab laborum
+          explicabo neque quibusdam aliquid? Consequatur?
+        </p>
+      </div>
+
+      <div class="h4 text-center text-uppercase font-weight-light search-area my-5 py-4 mx-3 px-2">
+        <a href="#" class="text-decoration-none text-dark">
+          <p>
+            <svg class="svg-inline--fa fa-info fa-w-6" aria-hidden="true" focusable="false" data-prefix="fas"
+              data-icon="info" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg="">
+              <path fill="currentColor"
+                d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z">
+              </path>
+            </svg> click here for more details
+            about this house
+          </p>
+        </a>
+      </div>
+
+      <div class="h5 text-center text-uppercase text-danger font-weight-light my-5 py-4 mx-3 px-2">
+        <p><svg class="svg-inline--fa fa-info fa-w-6" aria-hidden="true" focusable="false" data-prefix="fas"
+            data-icon="info" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 512" data-fa-i2svg="">
+            <path fill="currentColor"
+              d="M20 424.229h20V279.771H20c-11.046 0-20-8.954-20-20V212c0-11.046 8.954-20 20-20h112c11.046 0 20 8.954 20 20v212.229h20c11.046 0 20 8.954 20 20V492c0 11.046-8.954 20-20 20H20c-11.046 0-20-8.954-20-20v-47.771c0-11.046 8.954-20 20-20zM96 0C56.235 0 24 32.235 24 72s32.235 72 72 72 72-32.235 72-72S135.764 0 96 0z">
+            </path>
+          </svg> map directions</p>
+
+
+        <div class="col-sm-12 col-lg-6 my-3 d-flex justify-content-center mx-auto">
+          <div class="embed-responsive embed-responsive-4by3">
+            <iframe class="embed-resposive-item"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d380510.6741723165!2d-88.01215072109188!3d41.83390417000411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2c3cd0f4cbed%3A0xafe0a6ad09c0c000!2sChicago%2C%20Illinois%2C%20EE.%20UU.!5e0!3m2!1ses!2ses!4v1582623146748!5m2!1ses!2ses"
+              width="600" height="450" style="border:0;" allowfullscreen=""></iframe>
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <div class="jumbotron jumbotron-sm">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12 col-lg-12">
+            <h1 class="h1 text-dark">
+              Contact us <small class="text-dark">Feel free to contact us</small>
+            </h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8">
+          <div class="well well-sm">
+            <form>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name"> Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                  </div>
+                  <div class="form-group">
+                    <label for="email"> Email Address</label>
+                    <div class="input-group">
+                      <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                      </span>
+                      <input type="email" class="form-control" id="email" placeholder="Enter email"
+                        required="required" />
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label for="subject"> Subject</label>
+                    <select id="subject" name="subject" class="form-control" required="required">
+                      <option value="">Choose One:</option>
+                      <option value="service">General Customer Service</option>
+                      <option value="suggestions">Suggestions</option>
+                      <option value="product">Product Support</option>
+                    </select>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="form-group">
+                    <label for="name"> Message</label>
+                    <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                      placeholder="Message"></textarea>
+                  </div>
+                </div>
+                <div class="col-md-12">
+                  <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                    Send Message
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <form>
+            <strong>
+              <span class="glyphicon glyphicon-globe"></span> Our office
+            </strong>
+            <address>
+              <strong>KGL Rentals, Inc.</strong><br />
+              795 Umubano Boulevard, KN 600<br />
+              Nyarugenge, Kigali<br />
+              <strong title="Phone"> Phone:</strong>
+              (250) 456-7890
+            </address>
+            <address>
+              <strong>Full Name</strong><br />
+              <a href="mailto:#" class="btn mail-btn">first.last@example.com <i class="fa fa-envelope-square"
+                  aria-hidden="true"></i></a>
+            </address>
+          </form>
+        </div>
+      </div>
+    </div>
+  <section class="carousel">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+            <div id="Carousel" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#Carousel" data-slide-to="0" class="carousel-pagination active"></li>
+                <li data-target="#Carousel" data-slide-to="1" class="carousel-pagination"></li>
+                <li data-target="#Carousel" data-slide-to="2" class="carousel-pagination"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-6 div-l">
+                      <div class="carousel-img image-fluid d-none d-md-block">
+                        <img src="https://res.cloudinary.com/morrism1/image/upload/c_fill,q_auto:good,w_659/v1585605798/imageh4_bw9tap.jpg" alt="carousel-image">
+                        <h2 class="carousel-title">Elegant</h2>
+                      </div>
+                    </div>
+                    <div class="col-md-6 div-r">
+                      <h3>Live Out Loud!</h3>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. A tenetur officiis voluptatem vel blanditiis.
+                        Nam enim quidem debitis aliquid maxime perferendis
+                        repudiandae similique, explicabo, quam minus tenetur
+                        cupiditate maiores ea.
+                      </p>
+                      <button class="btn btn-primary">
+                        Call Soon
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6 div-l">
+                      <div class="carousel-img image-fluid d-none d-md-block" 
+                          >
+                          <img src="https://res.cloudinary.com/morrism1/image/upload/c_fill,q_auto:good,w_659/v1586296158/imageh6_gfbj79.jpg" alt="carousel">
+                        <h2 class="carousel-title">Luxurious</h2>
+                      </div>
+                    </div>
+                    <div class="col-md-6 div-r">
+                      <h3>Crib You Deserve</h3>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. A tenetur officiis voluptatem vel blanditiis.
+                        Nam enim quidem debitis aliquid maxime perferendis
+                        repudiandae similique, explicabo, quam minus tenetur
+                        cupiditate maiores ea.
+                      </p>
+                      <button class="btn btn-primary">
+                        Contact Us
+                      </button>
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6 div-l">
+                      <div class="carousel-img image-fluid d-none d-md-block">
+                          <img src="https://res.cloudinary.com/morrism1/image/upload/c_fill,q_auto:good,w_659/v1585605766/imageh2_ny4z1v.jpg" alt="carousel-image">
+                        <h2 class="carousel-title">Modern</h2>
+                      </div>
+                    </div>
+                    <div class="col-md-6 div-r">
+                      <h3>Family House</h3>
+                      <hr />
+                      <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. A tenetur officiis voluptatem vel blanditiis.
+                        Nam enim quidem debitis aliquid maxime perferendis
+                        repudiandae similique, explicabo, quam minus tenetur
+                        cupiditate maiores ea.
+                      </p>
+                      <button class="btn btn-primary">
+                        Contact Realtor
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <a class="carousel-control-prev carousel-controls" href="#carouselExampleIndicators" role="button"
+                data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="carousel-control-next carousel-controls" href="#carouselExampleIndicators" role="button"
+                data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="container-fluid py-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="logo-part ">
+                <img src="images/Vector.png" class="w-50 mb-2" alt="logo" />
+                <p>37 Umubano Boulevard, KN 194</p>
+                <p>Use Our Site To Find your Next Home</p>
+                <br />
+                <a href="#" class="btn-footer"> Contact Us</a>
+              </div>
+            </div>
+            <div class="col-md-6 px-4">
+              <h6>About Company</h6>
+              <p>
+                Falling Leaves … Falling Prices! Make it Happen
+              </p>
+              <a href="#" class="btn-footer"> More Info </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-6 px-4">
+              <h6>Help us</h6>
+              <div class="row">
+                <div class="col-md-6">
+                  <ul class="pl-0">
+                    <li><a href="index.html"> Home</a></li>
+                    <li><a href="search.html"> Search</a></li>
+                    <li><a href="#features"> Service</a></li>
+                    <li><a href="contact.html"> Contact</a></li>
+                  </ul>
+                </div>
+                <div class="col-md-6 px-4">
+                  <ul class="pl-0">
+                    <li><a href="#"> Terms</a></li>
+                    <li><a href="#"> Policy</a></li>
+                    <li><a href="#"> Refunds</a></li>
+                    <li><a href="#"> Paypal</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h6>Newsletter</h6>
+
+              <form class="form-footer my-3">
+                <input type="text" placeholder="search here...." name="search" />
+                <input type="button" value="Go" />
+              </form>
+              <div class="social">
+                <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
+                <a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
