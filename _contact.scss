@@ -54,19 +54,21 @@ main {
   background-color: lighten($color-tertiary, 45%);
 }
 
+.jumbotron,
+.jumbotron small,
+.mail-btn,
+.pull-right {
+  color: $color-white;
+}
+
 .jumbotron {
   background: $color-secondary;
-  color: $color-white;
   border-radius: 0;
 }
 
 .jumbotron-sm {
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.jumbotron small {
-  color: $color-white;
 }
 
 .h1 small {
@@ -76,5 +78,4 @@ main {
 .mail-btn,
 .pull-right {
   background-color: $color-primary;
-  color: $color-white;
 }
