@@ -1,7 +1,17 @@
 @import "colors";
 
-body {
-  background-color: $color-white;
+.navicon,
+.header-2 .menu-icon {
+  position: relative;
+}
+
+.navicon::before,
+.navicon::after,
+.header-2 .menu-icon .navicon,
+.header-2 .menu-icon .navicon::before,
+.header-2 .menu-icon .navicon::after,
+.search-slt {
+  background: $color-white;
 }
 
 .header-2 {
@@ -19,12 +29,6 @@ body {
   overflow: hidden;
 }
 
-.header-2 .menu-icon,
-.navicon {
-  position: relative;
-  background: $color-white;
-}
-
 .header-2 li a,
 .header-2 .logo,
 .header-2 .menu-icon .navicon,
@@ -34,11 +38,16 @@ body {
   display: block;
 }
 
+.header-2 li a,
+.result-name,
+.result-button {
+  color: $color-white;
+}
+
 .header-2 li a {
   font-size: 0.9rem;
   padding: 20px 20px;
   text-decoration: none;
-  color: $color-white;
 }
 
 .header-2 li a:hover,
@@ -145,7 +154,6 @@ body {
   font-size: 0.875rem;
   line-height: 1.5;
   color: $color-tertiary;
-  background-color: $color-white;
   background-image: none;
   border: 1px solid $color-secondary;
   height: calc(3rem + 2px) !important;
@@ -161,12 +169,8 @@ body {
   border-radius: 0;
 }
 
-.results,
-.result {
-  display: grid;
-}
-
 .results {
+  display: grid;
   margin: 0.5rem 0;
   grid-column: center-start / center-end;
   grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
@@ -174,6 +178,7 @@ body {
 
   .result {
     background-color: darken($color-secondary, 5%);
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2.5rem;
     z-index: 1;
@@ -193,7 +198,6 @@ body {
       font-family: "Lato", sans-serif;
       font-size: 1.6rem;
       background-color: darken($color-tertiary, 15%);
-      color: $color-white;
       padding: 1.25rem;
       transform: translateY(50%);
     }
@@ -216,7 +220,6 @@ body {
     &-button {
       grid-column: 1/-1;
       background-color: $color-primary;
-      color: $color-white;
       border: none;
       border-radius: 0;
       font-family: "Lato", sans-serif;
