@@ -19,9 +19,22 @@ body {
   overflow: hidden;
 }
 
+.header-2 li a,
+.header-2 .logo,
+.header-2 .menu-icon .navicon,
+.header-2 .menu-icon .navicon::before,
+.header-2 .menu-icon .navicon::after,
+.search-slt{
+  display: block;
+}
+
+.header-2 .menu-icon, .navicon {
+  position: relative;
+  background: $color-white;
+}
+
 .header-2 li a {
   font-size: 0.9rem;
-  display: block;
   padding: 20px 20px;
   text-decoration: none;
   color: $color-white;
@@ -33,14 +46,11 @@ body {
 }
 
 .header-2 .logo {
-  display: block;
   float: left;
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
 }
-
-/* menu */
 
 .header-2 .menu {
   clear: both;
@@ -52,24 +62,18 @@ body {
   cursor: pointer;
   float: right;
   padding: 28px 20px;
-  position: relative;
   user-select: none;
 }
 
 .header-2 .menu-icon .navicon {
-  background: $color-white;
-  display: block;
   height: 2px;
-  position: relative;
   transition: background 0.2s ease-out;
   width: 18px;
 }
 
 .header-2 .menu-icon .navicon::before,
 .header-2 .menu-icon .navicon::after {
-  background: $color-white;
   content: "";
-  display: block;
   height: 100%;
   position: absolute;
   transition: all 0.2s ease-out;
@@ -136,7 +140,6 @@ body {
 }
 
 .search-slt {
-  display: block;
   width: 100%;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -157,8 +160,11 @@ body {
   border-radius: 0;
 }
 
-.results {
+.results, .result {
   display: grid;
+}
+
+.results {
   margin: 0.5rem 0;
   grid-column: center-start / center-end;
   grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
@@ -166,7 +172,7 @@ body {
 
   .result {
     background-color: darken($color-secondary, 5%);
-    display: grid;
+
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2.5rem;
     z-index: 1;
