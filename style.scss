@@ -19,6 +19,14 @@ body {
   background-color: $color-secondary;
 }
 
+.logo-box,
+.middle-text,
+.carousel-img,
+.carousel-title,
+footer h6::after {
+  position: absolute;
+}
+
 .header {
   height: 85vh;
   background-image:
@@ -108,22 +116,18 @@ body {
   }
 }
 
- .logo-box,
- .middle-text,
- .carousel-img,
- .carousel-title,
- footer h6::after {
-   position: absolute;
- }
+.features,
+.above-cop,
+.footer-top {
+  display: grid;
+}
 
- .features, .above-cop, .footer-top {
-   display: grid;
- }
-
- .feature, .description, footer h6 {
-   display: flex;
-   font-family: "Lato", sans-serif;
- }
+.feature,
+.description,
+footer h6 {
+  display: flex;
+  font-family: "Lato", sans-serif;
+}
 
 .features {
   grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
