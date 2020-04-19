@@ -18,9 +18,23 @@ body {
   overflow: hidden;
 }
 
+.header-2 .menu-icon,
+.navicon {
+  position: relative;
+  background: #fff;
+}
+
+.header-2 li a,
+.header-2 .logo,
+.header-2 .menu-icon .navicon,
+.header-2 .menu-icon .navicon::before,
+.header-2 .menu-icon .navicon::after,
+.search-slt {
+  display: block;
+}
+
 .header-2 li a {
   font-size: 0.9rem;
-  display: block;
   padding: 20px 20px;
   text-decoration: none;
   color: #fff;
@@ -32,14 +46,12 @@ body {
 }
 
 .header-2 .logo {
-  display: block;
   float: left;
   font-size: 2em;
   padding: 10px 20px;
   text-decoration: none;
 }
 
-/* menu */
 .header-2 .menu {
   clear: both;
   max-height: 0;
@@ -51,7 +63,6 @@ body {
   cursor: pointer;
   float: right;
   padding: 28px 20px;
-  position: relative;
   -webkit-user-select: none;
      -moz-user-select: none;
       -ms-user-select: none;
@@ -59,10 +70,7 @@ body {
 }
 
 .header-2 .menu-icon .navicon {
-  background: #fff;
-  display: block;
   height: 2px;
-  position: relative;
   -webkit-transition: background 0.2s ease-out;
   transition: background 0.2s ease-out;
   width: 18px;
@@ -70,9 +78,7 @@ body {
 
 .header-2 .menu-icon .navicon::before,
 .header-2 .menu-icon .navicon::after {
-  background: #fff;
   content: "";
-  display: block;
   height: 100%;
   position: absolute;
   -webkit-transition: all 0.2s ease-out;
@@ -139,7 +145,6 @@ body {
 }
 
 .search-slt {
-  display: block;
   width: 100%;
   font-size: 0.875rem;
   line-height: 1.5;
@@ -160,9 +165,13 @@ body {
   border-radius: 0;
 }
 
-.results {
+.results,
+.result {
   display: -ms-grid;
   display: grid;
+}
+
+.results {
   margin: 0.5rem 0;
   grid-column: center-start / center-end;
   -ms-grid-columns: (minmax(21rem, 1fr))[auto-fit];
@@ -172,8 +181,6 @@ body {
 
 .results .result {
   background-color: #e1f0f6;
-  display: -ms-grid;
-  display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   row-gap: 2.5rem;
@@ -410,19 +417,21 @@ main {
   background-color: #aeaeae;
 }
 
+.jumbotron,
+.jumbotron small,
+.mail-btn,
+.pull-right {
+  color: #fff;
+}
+
 .jumbotron {
   background: #f5fafc;
-  color: #fff;
   border-radius: 0;
 }
 
 .jumbotron-sm {
   padding-top: 24px;
   padding-bottom: 24px;
-}
-
-.jumbotron small {
-  color: #fff;
 }
 
 .h1 small {
@@ -432,7 +441,6 @@ main {
 .mail-btn,
 .pull-right {
   background-color: #d45749;
-  color: #fff;
 }
 
 *,
@@ -450,6 +458,14 @@ body {
   color: #151515;
   padding: 10px;
   background-color: #f5fafc;
+}
+
+.logo-box,
+.middle-text,
+.carousel-img,
+.carousel-title,
+footer h6::after {
+  position: absolute;
 }
 
 .header {
@@ -473,7 +489,6 @@ body {
 }
 
 .header .logo-box {
-  position: absolute;
   top: 10px;
   left: 20px;
   z-index: 3;
@@ -489,7 +504,6 @@ body {
 }
 
 .header .middle-text {
-  position: absolute;
   top: 45%;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
@@ -538,9 +552,23 @@ body {
   background-color: #cee6f0;
 }
 
-.features {
+.features,
+.above-cop,
+.footer-top {
   display: -ms-grid;
   display: grid;
+}
+
+.feature,
+.description,
+footer h6 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: "Lato", sans-serif;
+}
+
+.features {
   -ms-grid-columns: (minmax(17rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   background-color: #f5fafc;
@@ -549,9 +577,6 @@ body {
 }
 
 .feature {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
@@ -569,7 +594,6 @@ body {
 
 .feature-text {
   font-size: 1.1rem;
-  font-family: "Lato", sans-serif;
   color: #3b3b3b;
 }
 
@@ -580,9 +604,6 @@ body {
 }
 
 .description {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -670,7 +691,6 @@ body {
   background-size: cover;
   width: 100%;
   height: auto;
-  position: absolute;
   z-index: 1;
   -webkit-clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
           clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
@@ -683,7 +703,6 @@ body {
 
 @media only screen and (max-width: 576px) {
   .carousel .div-r {
-    font-family: "Lato", sans-serif;
     font-size: 150%;
     line-height: 25px;
     font-weight: normal;
@@ -697,7 +716,6 @@ body {
   margin-top: 20px;
   z-index: 2;
   top: 0;
-  position: absolute;
 }
 
 .carousel .carousel-pagination {
@@ -724,8 +742,6 @@ footer {
 }
 
 footer .above-cop {
-  display: -ms-grid;
-  display: grid;
   -ms-grid-columns: (minmax(25rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
   width: 100%;
@@ -746,13 +762,11 @@ footer a:hover {
 }
 
 footer h6 {
-  font-family: "Lato", sans-serif;
   margin-bottom: 40px;
   position: relative;
 }
 
 footer h6::after {
-  position: absolute;
   content: "";
   background: #f5fafc;
   width: 12%;
@@ -829,8 +843,6 @@ footer .form-footer input[type="button"] {
 }
 
 footer .footer-top {
-  display: -ms-grid;
-  display: grid;
   -ms-grid-columns: (minmax(2rem, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
 }
@@ -876,7 +888,6 @@ footer .fa:hover {
     width: 75%;
   }
   footer h6::after {
-    position: absolute;
     content: "";
     background: #f5fafc;
     width: 12%;
