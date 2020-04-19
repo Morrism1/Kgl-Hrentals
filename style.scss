@@ -43,7 +43,6 @@ body {
   }
 
   .logo-box {
-    position: absolute;
     top: 10px;
     left: 20px;
     z-index: 3;
@@ -64,7 +63,6 @@ body {
   }
 
   .middle-text {
-    position: absolute;
     top: 45%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -110,8 +108,24 @@ body {
   }
 }
 
+ .logo-box,
+ .middle-text,
+ .carousel-img,
+ .carousel-title,
+ footer h6::after {
+   position: absolute;
+ }
+
+ .features, .above-cop, .footer-top {
+   display: grid;
+ }
+
+ .feature, .description, footer h6 {
+   display: flex;
+   font-family: "Lato", sans-serif;
+ }
+
 .features {
-  display: grid;
   grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
   background-color: $color-secondary;
   grid-column: center-start / center-end;
@@ -119,7 +133,6 @@ body {
 }
 
 .feature {
-  display: flex;
   flex-direction: column;
   place-items: center;
   text-align: center;
@@ -133,7 +146,6 @@ body {
 
   &-text {
     font-size: 1.1rem;
-    font-family: "Lato", sans-serif;
     color: $color-tertiary;
   }
 }
@@ -145,7 +157,6 @@ body {
 }
 
 .description {
-  display: flex;
   justify-content: space-between;
   color: $color-white;
   padding: 0 5rem;
@@ -216,7 +227,6 @@ body {
     background-size: cover;
     width: 100%;
     height: auto;
-    position: absolute;
     z-index: 1;
     clip-path: polygon(0 0, 90% 0, 100% 100%, 0% 100%);
     opacity: 0.8;
@@ -226,7 +236,6 @@ body {
     padding: 40px;
 
     @media only screen and (max-width: 576px) {
-      font-family: "Lato", sans-serif;
       font-size: 150%;
       line-height: 25px;
       font-weight: normal;
@@ -240,7 +249,6 @@ body {
     margin-top: 20px;
     z-index: 2;
     top: 0;
-    position: absolute;
   }
 
   .carousel-pagination {
@@ -267,7 +275,6 @@ footer {
   background-color: $color-dark;
 
   .above-cop {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
     width: 100%;
   }
@@ -287,13 +294,11 @@ footer {
   }
 
   h6 {
-    font-family: "Lato", sans-serif;
     margin-bottom: 40px;
     position: relative;
   }
 
   h6::after {
-    position: absolute;
     content: "";
     background: $color-secondary;
     width: 12%;
@@ -355,7 +360,6 @@ footer {
   }
 
   .footer-top {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(2rem, 1fr));
   }
 
@@ -391,7 +395,6 @@ footer {
     }
 
     h6::after {
-      position: absolute;
       content: "";
       background: $color-secondary;
       width: 12%;
