@@ -169,8 +169,12 @@
   border-radius: 0;
 }
 
-.results {
+.results,
+.result {
   display: grid;
+}
+
+.results {
   margin: 0.5rem 0;
   grid-column: center-start / center-end;
   grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
@@ -178,7 +182,6 @@
 
   .result {
     background-color: darken($color-secondary, 5%);
-    display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 2.5rem;
     z-index: 1;
