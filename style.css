@@ -173,9 +173,13 @@
   border-radius: 0;
 }
 
-.results {
+.results,
+.result {
   display: -ms-grid;
   display: grid;
+}
+
+.results {
   margin: 0.5rem 0;
   grid-column: center-start / center-end;
   -ms-grid-columns: (minmax(21rem, 1fr))[auto-fit];
@@ -185,8 +189,6 @@
 
 .results .result {
   background-color: #e1f0f6;
-  display: -ms-grid;
-  display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
   row-gap: 2.5rem;
